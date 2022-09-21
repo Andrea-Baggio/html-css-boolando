@@ -13,7 +13,7 @@ html {
 nav {
     width: 100%;
     background-color: rgb(255, 132, 0);
-    position: sticky;
+    position: fixed;
     z-index: 99;
 }
 
@@ -73,7 +73,7 @@ nav {
 .main-container {
     max-width: 70%;
     margin: auto;
-    margin-top: 35px;
+    padding-top: 90px;
     display: flex;
 }
 
@@ -86,10 +86,9 @@ nav {
 .model-list {
     border: 2px solid black;
     width: 32.5%;
+    margin-bottom: 80px;
 }
 
 .model-item {
     width: 100%;
 }
-
-/* fine */
