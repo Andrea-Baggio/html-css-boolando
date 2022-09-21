@@ -8,15 +8,12 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    background-color: aqua;
-    height: 1500px;
-}
+/* inizio nav */
 
 nav {
     width: 100%;
     background-color: rgb(255, 132, 0);
-    position: fixed;
+    position: sticky;
     z-index: 99;
 }
 
@@ -70,3 +67,29 @@ nav {
 .nav-hover:hover {
     color: gray;
 }
+
+/* inizio main */
+
+.main-container {
+    max-width: 70%;
+    margin: auto;
+    margin-top: 35px;
+    display: flex;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.model-list {
+    border: 2px solid black;
+    width: 32.5%;
+}
+
+.model-item {
+    width: 100%;
+}
+
+/* fine */
