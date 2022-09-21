@@ -84,11 +84,123 @@ nav {
 }
 
 .model-list {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 32.5%;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .model-item {
     width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.brand {
+    font-weight: 100;
+    font-size: .6em;
+}
+
+.product {
+    font-size: 0.7em;
+}
+
+.red-price, .old-price {
+    font-size: .6rem;
+}
+
+.old-price {
+    color: black;
+    text-decoration: line-through;
+}
+
+.red-price {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* inizio footer */
+
+footer {
+    width: 100%;
+    background-color: rgb(28, 28, 28);
+}
+
+.footer-container {
+    max-width: 70%;
+    margin: auto;
+    padding: 1em 0;
+    display: flex;
+}
+
+/* footer-info */
+
+.info {
+    flex-grow: 1;
+}
+
+.info-flex {
+    color: white;
+    font-size: .8em;
+    padding: .5em 0;
+
+}
+
+.info-list{
+    display: flex;
+    padding: .6em 0;
+}
+
+.info-item {
+    margin-right: .5em;
+    font-size: .7em;
+    font-weight: 100;
+    list-style: none;
+}
+
+/* footer-social */
+
+.social {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-flex {
+    color: white;
+    font-size: .8em;
+    padding: .5em 0;
+
+}
+
+.social-list{
+    display: flex;
+    padding: .6em 0;
+}
+
+.social-item {
+    margin-right: .5em;
+    font-size: 1.1em;
+    list-style: none;
 }
